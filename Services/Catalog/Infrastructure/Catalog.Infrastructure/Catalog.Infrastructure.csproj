@@ -11,9 +11,9 @@
 		<PackageReference Include="Microsoft.Extensions.Caching.Memory" Version="8.0.0" />
 	</ItemGroup>
 
-	<ItemGroup>
-	  <ProjectReference Include="..\..\..\..\..\CqrsPOC○\Services\Catalog\Domain\Catalog.Domain\Catalog.Domain.csproj" />
-	  <ProjectReference Include="..\..\..\..\Services\Catalog\Persistence\Catalog.Persistence\Catalog.Persistence.csproj" />
+	<ItemGroup> 
+	  <ProjectReference Include="..\..\..\..\Services\Catalog\Persistence\Catalog.Persistence\Catalog.Persistence.csproj" /> 
+	  <ProjectReference Include="..\..\Domain\Catalog.Domain\Catalog.Domain.csproj" />
 	</ItemGroup>
 
 

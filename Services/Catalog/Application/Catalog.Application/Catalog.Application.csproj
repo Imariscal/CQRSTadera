@@ -17,7 +17,7 @@
 
 
 	<ItemGroup>
-	  <ProjectReference Include="..\..\..\..\..\CqrsPOC○\Services\Catalog\Domain\Catalog.Domain\Catalog.Domain.csproj" />
+	  <ProjectReference Include="..\..\Domain\Catalog.Domain\Catalog.Domain.csproj" />
 	  <ProjectReference Include="..\..\Infrastructure\Catalog.Infrastructure\Catalog.Infrastructure.csproj" />
 	</ItemGroup>
 
